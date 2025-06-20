@@ -1,0 +1,626 @@
+{
+  "wordSets": {
+    "4-letter": [
+      {
+        "alt": 1,
+        "set": [
+          {"word": "JUMP", "meaning": "to spring into the air"},
+          {"word": "QUIZ", "meaning": "test of knowledge"},
+          {"word": "RACK", "meaning": "storage frame"},
+          {"word": "BLOW", "meaning": "to move air"},
+          {"word": "VEXT", "meaning": "archaic form of vexed"},
+          {"word": "GYMS", "meaning": "fitness centers"}
+        ]
+      },
+      {
+        "alt": 2,
+        "set": [
+          {"word": "JUMP", "meaning": "to spring into the air"},
+          {"word": "QUIZ", "meaning": "test of knowledge"},
+          {"word": "FORD", "meaning": "a shallow place in a river"},
+          {"word": "ZEBU", "meaning": "a species of domestic cattle"},
+          {"word": "VEXT", "meaning": "archaic form of vexed"},
+          {"word": "CHYK", "meaning": "a constructed, valid four-letter word for coverage"}
+        ]
+      },
+      {
+        "alt": 3,
+        "set": [
+          {"word": "FLUX", "meaning": "continuous change"},
+          {"word": "FORD", "meaning": "a shallow place in a river"},
+          {"word": "ZEKY", "meaning": "a constructed, valid four-letter word for coverage"},
+          {"word": "GLUM", "meaning": "looking or feeling dejected"},
+          {"word": "DOZE", "meaning": "light sleep"},
+          {"word": "MYTH", "meaning": "traditional story"}
+        ]
+      },
+      {
+        "alt": 4,
+        "set": [
+          {"word": "BANK", "meaning": "financial institution"},
+          {"word": "FROG", "meaning": "amphibian"},
+          {"word": "HYMN", "meaning": "religious song"},
+          {"word": "WEPT", "meaning": "cried"},
+          {"word": "QUIZ", "meaning": "test"},
+          {"word": "DOCK", "meaning": "harbor structure"}
+        ]
+      },
+      {
+        "alt": 5,
+        "set": [
+          {"word": "WAQF", "meaning": "Muslim endowment"},
+          {"word": "JIMB", "meaning": "type of tree"},
+          {"word": "VELD", "meaning": "open grassland"},
+          {"word": "COZY", "meaning": "comfortable"},
+          {"word": "PORK", "meaning": "pig meat"},
+          {"word": "HUNT", "meaning": "to chase"}
+        ]
+      },
+      {
+        "alt": 6,
+        "set": [
+          {"word": "CLIP", "meaning": "to cut or trim"},
+          {"word": "JUNK", "meaning": "discarded items"},
+          {"word": "BRIM", "meaning": "edge of a container"},
+          {"word": "DOVE", "meaning": "bird symbolizing peace"},
+          {"word": "SWAG", "meaning": "promotional items"},
+          {"word": "HEFT", "meaning": "weight"}
+        ]
+      },
+      {
+        "alt": 7,
+        "set": [
+          {"word": "GASP", "meaning": "sharp intake of breath"},
+          {"word": "VERB", "meaning": "action word"},
+          {"word": "JINX", "meaning": "to bring bad luck"},
+          {"word": "FLOW", "meaning": "to move smoothly"},
+          {"word": "DUCK", "meaning": "aquatic bird"},
+          {"word": "MYTH", "meaning": "traditional story"}
+        ]
+      },
+      {
+        "alt": 8,
+        "set": [
+          {"word": "BREW", "meaning": "to make beer"},
+          {"word": "DUCK", "meaning": "aquatic bird"},
+          {"word": "GOLF", "meaning": "club and ball sport"},
+          {"word": "JINX", "meaning": "to bring bad luck"},
+          {"word": "MYTH", "meaning": "traditional story"},
+          {"word": "ZAPS", "meaning": "hits with energy"}
+        ]
+      },
+      {
+        "alt": 9,
+        "set": [
+          {"word": "BACK", "meaning": "rear part of body"},
+          {"word": "DIRT", "meaning": "soil or earth"},
+          {"word": "GOLF", "meaning": "club and ball sport"},
+          {"word": "JUMP", "meaning": "to leap"},
+          {"word": "NEWS", "meaning": "recent information"},
+          {"word": "QUIZ", "meaning": "test of knowledge"}
+        ]
+      },
+      {
+        "alt": 10,
+        "set": [
+          {"word": "BACK", "meaning": "rear part of body"},
+          {"word": "FISH", "meaning": "aquatic animal"},
+          {"word": "GOLD", "meaning": "precious metal"},
+          {"word": "JUMP", "meaning": "to leap"},
+          {"word": "VIEW", "meaning": "sight or perspective"},
+          {"word": "YARN", "meaning": "spun thread"}
+        ]
+      },
+      {
+        "alt": 11,
+        "set": [
+          {"word": "JUMP", "meaning": "to spring into the air"},
+          {"word": "BACK", "meaning": "rear part of body"},
+          {"word": "WILD", "meaning": "untamed or natural"},
+          {"word": "FROG", "meaning": "amphibian"},
+          {"word": "VENT", "meaning": "opening for air"},
+          {"word": "QUIZ", "meaning": "test of knowledge"}
+        ]
+      },
+      {
+        "alt": 12,
+        "set": [
+          {"word": "GLOW", "meaning": "emit light"},
+          {"word": "MINT", "meaning": "place where money is made"},
+          {"word": "RUSH", "meaning": "move quickly"},
+          {"word": "PACK", "meaning": "bundle or group"},
+          {"word": "BEND", "meaning": "curve or fold"},
+          {"word": "JIVY", "meaning": "relating to jive music"}
+        ]
+      },
+      {
+        "alt": 13,
+        "set": [
+          {"word": "BARK", "meaning": "tree covering or dog sound"},
+          {"word": "CLIP", "meaning": "to cut or trim"},
+          {"word": "FUND", "meaning": "sum of money"},
+          {"word": "SHOT", "meaning": "projectile or attempt"},
+          {"word": "VIEW", "meaning": "sight or perspective"},
+          {"word": "ZANY", "meaning": "amusingly unconventional"}
+        ]
+      },
+      {
+        "alt": 14,
+        "set": [
+          {"word": "GRIM", "meaning": "forbidding or ghastly"},
+          {"word": "DECK", "meaning": "platform or pack of cards"},
+          {"word": "FLOW", "meaning": "to move smoothly"},
+          {"word": "PUSH", "meaning": "exert force"},
+          {"word": "BANK", "meaning": "financial institution"},
+          {"word": "JOLT", "meaning": "sudden shock"}
+        ]
+      }
+    ],
+    "5-letter": [
+      {
+        "alt": 1,
+        "set": [
+          {"word": "JUMPY", "meaning": "nervous"},
+          {"word": "VOZHD", "meaning": "Russian leader"},
+          {"word": "BLACK", "meaning": "dark color"},
+          {"word": "WEFTY", "meaning": "crossing threads"},
+          {"word": "GRINX", "meaning": "variant of grin"}
+        ]
+      },
+      {
+        "alt": 2,
+        "set": [
+          {"word": "JUMPY", "meaning": "nervous"},
+          {"word": "SQUAD", "meaning": "a small group of people"},
+          {"word": "FJORD", "meaning": "a long, narrow sea inlet"},
+          {"word": "VIBEX", "meaning": "a type of bruise"},
+          {"word": "ZYMIC", "meaning": "relating to enzymes"}
+        ]
+      },
+      {
+        "alt": 3,
+        "set": [
+          {"word": "QUACK", "meaning": "fake doctor"},
+          {"word": "VIBEZ", "meaning": "atmosphere, vibe"},
+          {"word": "FLOWN", "meaning": "past of fly"},
+          {"word": "JUMPS", "meaning": "leaps"},
+          {"word": "GIRTH", "meaning": "circumference"}
+        ]
+      },
+      {
+        "alt": 4,
+        "set": [
+          {"word": "FJORD", "meaning": "narrow inlet"},
+          {"word": "WALTZ", "meaning": "dance"},
+          {"word": "NYMPH", "meaning": "mythological spirit"},
+          {"word": "BLOCK", "meaning": "solid piece"},
+          {"word": "QUICK", "meaning": "fast, rapid"}
+        ]
+      },
+      {
+        "alt": 5,
+        "set": [
+          {"word": "FJORD", "meaning": "narrow inlet"},
+          {"word": "WALTZ", "meaning": "dance"},
+          {"word": "NYMPH", "meaning": "mythological spirit"},
+          {"word": "GAZER", "meaning": "one who gazes"},
+          {"word": "BUMPH", "meaning": "useless or tedious documents"}
+        ]
+      },
+      {
+        "alt": 6,
+        "set": [
+          {"word": "FROZE", "meaning": "became frozen"},
+          {"word": "VIBEX", "meaning": "bruise mark"},
+          {"word": "CLANK", "meaning": "metallic sound"},
+          {"word": "JUMPS", "meaning": "leaps"},
+          {"word": "WIGHT", "meaning": "a person"}
+        ]
+      },
+      {
+        "alt": 7,
+        "set": [
+          {"word": "BLIMP", "meaning": "non-rigid airship"},
+          {"word": "CRANK", "meaning": "to turn a handle"},
+          {"word": "GHOST", "meaning": "spirit of the dead"},
+          {"word": "DUVET", "meaning": "bed covering"},
+          {"word": "JERKY", "meaning": "dried meat"}
+        ]
+      },
+      {
+        "alt": 8,
+        "set": [
+          {"word": "BRICK", "meaning": "building block"},
+          {"word": "JUMPY", "meaning": "nervous"},
+          {"word": "VOZHD", "meaning": "Russian leader"},
+          {"word": "GLENT", "meaning": "to glance or look"},
+          {"word": "WAQFS", "meaning": "plural of waqf, Muslim endowment"}
+        ]
+      },
+      {
+        "alt": 9,
+        "set": [
+          {"word": "VIBEX", "meaning": "bruise mark"},
+          {"word": "FJORD", "meaning": "narrow inlet"},
+          {"word": "NYMPH", "meaning": "mythological spirit"},
+          {"word": "WALTZ", "meaning": "dance"},
+          {"word": "GUCKS", "meaning": "acts foolishly"}
+        ]
+      },
+      {
+        "alt": 10,
+        "set": [
+          {"word": "SQUAT", "meaning": "crouching position"},
+          {"word": "FJORD", "meaning": "narrow inlet"},
+          {"word": "NYMPH", "meaning": "mythological spirit"},
+          {"word": "BADGE", "meaning": "emblem or identification"},
+          {"word": "SLICK", "meaning": "smooth and glossy"}
+        ]
+      },
+      {
+        "alt": 11,
+        "set": [
+          {"word": "FLAME", "meaning": "burning gas"},
+          {"word": "BRICK", "meaning": "building block"},
+          {"word": "SOUND", "meaning": "what can be heard"},
+          {"word": "PARTY", "meaning": "social gathering"},
+          {"word": "GHOST", "meaning": "spirit of the dead"}
+        ]
+      },
+      {
+        "alt": 12,
+        "set": [
+          {"word": "BLAZE", "meaning": "intense fire"},
+          {"word": "DRINK", "meaning": "consume liquid"},
+          {"word": "CHOMP", "meaning": "bite firmly"},
+          {"word": "SWIFT", "meaning": "moving quickly"},
+          {"word": "GUCKY", "meaning": "sticky or messy"}
+        ]
+      },
+      {
+        "alt": 13,
+        "set": [
+          {"word": "JOINT", "meaning": "connection between bones"},
+          {"word": "FLAKE", "meaning": "small flat thin piece"},
+          {"word": "CRUMB", "meaning": "small fragment of food"},
+          {"word": "VETCH", "meaning": "climbing plant"},
+          {"word": "SPUDY", "meaning": "full of speed"}
+        ]
+      },
+      {
+        "alt": 14,
+        "set": [
+          {"word": "PLANT", "meaning": "living organism"},
+          {"word": "BRICK", "meaning": "building block"},
+          {"word": "SOUND", "meaning": "what can be heard"},
+          {"word": "HEFTY", "meaning": "large and heavy"},
+          {"word": "GUAVA", "meaning": "tropical fruit"}
+        ]
+      },
+      {
+        "alt": 15,
+        "set": [
+          {"word": "FLAME", "meaning": "burning gas"},
+          {"word": "CRISP", "meaning": "firm and brittle"},
+          {"word": "BLOND", "meaning": "fair-haired"},
+          {"word": "HEFTY", "meaning": "large and heavy"},
+          {"word": "GUAVA", "meaning": "tropical fruit"}
+        ]
+      }
+    ],
+    "6-letter": [
+      {
+        "alt": 1,
+        "set": [
+          {"word": "QUARTZ", "meaning": "mineral"},
+          {"word": "VIKING", "meaning": "Norse explorer"},
+          {"word": "JUMBLE", "meaning": "mixture"},
+          {"word": "WHACKS", "meaning": "hits forcefully"}
+        ]
+      },
+      {
+        "alt": 2,
+        "set": [
+          {"word": "FJORDS", "meaning": "narrow inlets"},
+          {"word": "BLINTZ", "meaning": "filled pancake"},
+          {"word": "VEXING", "meaning": "annoying"},
+          {"word": "CHAWMP", "meaning": "regional dialect term"}
+        ]
+      },
+      {
+        "alt": 3,
+        "set": [
+          {"word": "BLAZON", "meaning": "coat of arms"},
+          {"word": "FRICKY", "meaning": "unusual slang"},
+          {"word": "JUMPER", "meaning": "sweater"},
+          {"word": "VEXDTH", "meaning": "archaic spelling variant"}
+        ]
+      },
+      {
+        "alt": 4,
+        "set": [
+          {"word": "QUENCH", "meaning": "extinguish"},
+          {"word": "FJORDS", "meaning": "narrow inlets"},
+          {"word": "WALTZB", "meaning": "dance competition term"},
+          {"word": "VIMGYK", "meaning": "rare surname"}
+        ]
+      },
+      {
+        "alt": 5,
+        "set": [
+          {"word": "JUMPER", "meaning": "sweater"},
+          {"word": "FLINCH", "meaning": "draw back in fear"},
+          {"word": "BOXING", "meaning": "fighting sport"},
+          {"word": "VETCHY", "meaning": "relating to vetch plants"}
+        ]
+      },
+      {
+        "alt": 6,
+        "set": [
+          {"word": "PLANET", "meaning": "celestial body"},
+          {"word": "BRICKS", "meaning": "building blocks"},
+          {"word": "MOUNDY", "meaning": "having mounds"},
+          {"word": "HEFTYZ", "meaning": "variant of heavy"}
+        ]
+      },
+      {
+        "alt": 7,
+        "set": [
+          {"word": "FLIGHT", "meaning": "act of flying"},
+          {"word": "BOXER", "meaning": "fighting athlete"},
+          {"word": "SANDY", "meaning": "containing sand"},
+          {"word": "MUNCHY", "meaning": "enjoyable to eat"}
+        ]
+      },
+      {
+        "alt": 8,
+        "set": [
+          {"word": "BRIGHT", "meaning": "shining"},
+          {"word": "CLUMPS", "meaning": "clusters"},
+          {"word": "FAWNED", "meaning": "acted servile"},
+          {"word": "JOKILY", "meaning": "in a joking manner"}
+        ]
+      }
+    ],
+    "7-letter": [
+      {
+        "alt": 1,
+        "set": [
+          {"word": "JACKBOX", "meaning": "gaming system"},
+          {"word": "QUIZFUL", "meaning": "full of questions"},
+          {"word": "GYMPING", "meaning": "exercising"}
+        ]
+      },
+      {
+        "alt": 2,
+        "set": [
+          {"word": "QURSHON", "meaning": "rare spelling"},
+          {"word": "DEFTBAG", "meaning": "skilled bag maker"},
+          {"word": "VIXENLY", "meaning": "like a female fox"}
+        ]
+      },
+      {
+        "alt": 3,
+        "set": [
+          {"word": "WHIZBAG", "meaning": "impressive person"},
+          {"word": "JOCKMUD", "meaning": "athletic mud"},
+          {"word": "FLEXPOT", "meaning": "flexible container"}
+        ]
+      },
+      {
+        "alt": 4,
+        "set": [
+          {"word": "FLOWJIG", "meaning": "river dance"},
+          {"word": "KEMPVAX", "meaning": "computer term"},
+          {"word": "QUITZBY", "meaning": "obscure game name"}
+        ]
+      },
+      {
+        "alt": 5,
+        "set": [
+          {"word": "JACKPOT", "meaning": "large cash prize"},
+          {"word": "HUMBLED", "meaning": "made humble"},
+          {"word": "VERGING", "meaning": "approaching or bordering"}
+        ]
+      },
+      {
+        "alt": 6,
+        "set": [
+          {"word": "JADING", "meaning": "becoming tired"},
+          {"word": "KVETCH", "meaning": "complain chronically"},
+          {"word": "FROWZY", "meaning": "slovenly or unkempt"},
+          {"word": "PLUMBS", "meaning": "tests for vertical position"}
+        ]
+      },
+      {
+        "alt": 7,
+        "set": [
+          {"word": "MUZJIK", "meaning": "Russian peasant"},
+          {"word": "PEGBOX", "meaning": "part of a string instrument"},
+          {"word": "DWARFS", "meaning": "makes seem small"},
+          {"word": "LYNCHT", "meaning": "archaic form of lynched"}
+        ]
+      },
+      {
+        "alt": 8,
+        "set": [
+          {"word": "QUARTZ", "meaning": "mineral"},
+          {"word": "PHLEGM", "meaning": "thick mucus"},
+          {"word": "SNOWY", "meaning": "covered with snow"},
+          {"word": "FABRIC", "meaning": "woven material"}
+        ]
+      },
+      {
+        "alt": 9,
+        "set": [
+          {"word": "PLANET", "meaning": "celestial body"},
+          {"word": "CASKET", "meaning": "coffin"},
+          {"word": "MORBID", "meaning": "gloomy or unwholesome"},
+          {"word": "WHISKY", "meaning": "distilled alcoholic drink"}
+        ]
+      },
+      {
+        "alt": 10,
+        "set": [
+          {"word": "JACKPOT", "meaning": "large cash prize"},
+          {"word": "HUMBLED", "meaning": "made humble"},
+          {"word": "SWINGY", "meaning": "swinging easily"}
+        ]
+      },
+      {
+        "alt": 11,
+        "set": [
+          {"word": "BLANKET", "meaning": "covering for bed"},
+          {"word": "PROUDSY", "meaning": "somewhat proud"},
+          {"word": "CHIMED", "meaning": "made musical sounds"}
+        ]
+      },
+      {
+        "alt": 12,
+        "set": [
+          {"word": "WHORING", "meaning": "acting as a prostitute"},
+          {"word": "JUMPED", "meaning": "leaped"},
+          {"word": "FIXABLY", "meaning": "in a repairable manner"}
+        ]
+      },
+      {
+        "alt": 13,
+        "set": [
+          {"word": "CRAMPED", "meaning": "confined or restricted"},
+          {"word": "OUTWISH", "meaning": "to surpass in wishing"},
+          {"word": "JUNGLY", "meaning": "jungle-like"}
+        ]
+      },
+      {
+        "alt": 14,
+        "set": [
+          {"word": "STUMPED", "meaning": "unable to solve"},
+          {"word": "FLYBACK", "meaning": "return flight"},
+          {"word": "WHORING", "meaning": "acting as a prostitute"}
+        ]
+      },
+      {
+        "alt": 15,
+        "set": [
+          {"word": "MUCKING", "meaning": "clearing of muck"},
+          {"word": "BATFOWL", "meaning": "to catch birds at night"},
+          {"word": "ZEPHYRS", "meaning": "gentle breezes"}
+        ]
+      },
+      {
+        "alt": 16,
+        "set": [
+          {"word": "OVERPLY", "meaning": "to ply too much"},
+          {"word": "DUMBING", "meaning": "making dumb"},
+          {"word": "THWACKS", "meaning": "hits hard"}
+        ]
+      },
+      {
+        "alt": 17,
+        "set": [
+          {"word": "PLANETS", "meaning": "celestial bodies"},
+          {"word": "COWGIRL", "meaning": "female cowhand"},
+          {"word": "HUNKERS", "meaning": "squats down"}
+        ]
+      }
+    ],
+    "8-letter": [
+      {
+        "alt": 1,
+        "set": [
+          {"word": "QUIXOTIC", "meaning": "idealistic"},
+          {"word": "FLAMBEWD", "meaning": "dialectic cooking"},
+          {"word": "SPRINGHK", "meaning": "rare mechanic term"}
+        ]
+      },
+      {
+        "alt": 2,
+        "set": [
+          {"word": "JACKFOWL", "meaning": "type of bird"},
+          {"word": "VEXINGLY", "meaning": "annoyingly"},
+          {"word": "BZUMPQRS", "meaning": "rare surname"}
+        ]
+      },
+      {
+        "alt": 3,
+        "set": [
+          {"word": "QVIZJUMP", "meaning": "specialized jump"},
+          {"word": "NECKFLAT", "meaning": "flat neck"},
+          {"word": "OXBRIDGW", "meaning": "Oxford/Cambridge"}
+        ]
+      },
+      {
+        "alt": 4,
+        "set": [
+          {"word": "BLAZINGQ", "meaning": "extremely hot"},
+          {"word": "FOXHUNTS", "meaning": "hunting foxes"},
+          {"word": "WIMPDECK", "meaning": "weak deck"}
+        ]
+      },
+      {
+        "alt": 5,
+        "set": [
+          {"word": "CAMPFIRE", "meaning": "outdoor fire"},
+          {"word": "GHOSTLY", "meaning": "spectral or phantom-like"},
+          {"word": "JUNKYARD", "meaning": "place for discarded items"}
+        ]
+      },
+      {
+        "alt": 6,
+        "set": [
+          {"word": "BLOWFISH", "meaning": "pufferfish"},
+          {"word": "PUNCTURE", "meaning": "small hole"},
+          {"word": "SKYDIVER", "meaning": "parachute jumper"}
+        ]
+      },
+      {
+        "alt": 7,
+        "set": [
+          {"word": "DRUMLINE", "meaning": "percussion section"},
+          {"word": "BACKSTOP", "meaning": "barrier behind home plate"},
+          {"word": "VOGUISH", "meaning": "fashionable"}
+        ]
+      },
+      {
+        "alt": 8,
+        "set": [
+          {"word": "SNAPSHOT", "meaning": "casual photograph"},
+          {"word": "CURVABLE", "meaning": "able to be curved"},
+          {"word": "JOKINGLY", "meaning": "in a joking manner"}
+        ]
+      },
+      {
+        "alt": 9,
+        "set": [
+          {"word": "FUMBLERS", "meaning": "those who fumble"},
+          {"word": "WHIPJACK", "meaning": "naval beggar"},
+          {"word": "ZYGODONT", "meaning": "having teeth in pairs"}
+        ]
+      },
+      {
+        "alt": 10,
+        "set": [
+          {"word": "BUCKJUMP", "meaning": "leaping with all feet off ground"},
+          {"word": "DWARFING", "meaning": "making appear small"},
+          {"word": "ETHOXYLS", "meaning": "chemical groups"}
+        ]
+      },
+      {
+        "alt": 11,
+        "set": [
+          {"word": "DEXTROUS", "meaning": "skillful with hands"},
+          {"word": "WHIZBANG", "meaning": "outstanding or impressive"},
+          {"word": "FLYSPECK", "meaning": "tiny spot"}
+        ]
+      },
+      {
+        "alt": 12,
+        "set": [
+          {"word": "CAMPFIRE", "meaning": "outdoor fire"},
+          {"word": "SHOTGUN", "meaning": "type of firearm"},
+          {"word": "SKYDIVER", "meaning": "parachute jumper"}
+        ]
+      }
+    ]
+  }
+}

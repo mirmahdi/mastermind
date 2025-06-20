@@ -1,0 +1,37 @@
+/* styles/components/indicator.css */
+/* Styling for the processing indicator */
+
+#processing-indicator {
+  /* Visibility controlled by adding/removing '.visible' class via JS */
+  visibility: hidden;
+  opacity: 0;
+  height: auto; /* Allow height to adjust to content */
+  min-height: 1.5em; /* Ensure some minimum height */
+  padding: var(--space-sm) var(--space-md); /* Standard padding */
+  margin: var(--space-md) 0; /* Vertical spacing when visible */
+  background-color: var(--warning-bg);
+  border: 1px solid var(--warning-border);
+  border-radius: var(--border-radius-sm);
+  color: var(--warning-text);
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9em;
+  box-sizing: border-box; /* Include padding/border in height/width */
+  /* Smooth transition for appearance/disappearance */
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+  /* Use display none/block toggled by JS for layout flow */
+  display: none;
+}
+
+#processing-indicator.visible {
+  visibility: visible;
+  opacity: 1;
+  display: block; /* Make it take space when visible */
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
+}
+
+/* Ensure indicator within modal content is also styled correctly */
+/* Usually no extra styles needed unless specific positioning is required */
+.modal-content #processing-indicator {
+    /* Example: margin-top: var(--space-sm); margin-bottom: var(--space-sm); */
+}

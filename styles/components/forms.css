@@ -1,0 +1,237 @@
+/**
+ * Project: Mastermind for Words
+ * File: styles/components/forms.css
+ * Description: Styles for forms, updated for the compact submission area.
+ */
+
+/* General Input Grouping */
+.input-group {
+  margin-bottom: var(--space-md);
+}
+
+/* Specific styling for the new score submission area */
+.score-submission-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+.score-inputs {
+  display: flex;
+  gap: var(--space-sm);
+  margin: 0;
+  align-items: center;
+}
+
+.score-inputs .input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-bottom: 0;
+}
+
+.score-inputs label {
+  margin-bottom: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.score-inputs input[type="number"] {
+  width: 50px;
+  padding: var(--space-xs);
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/* Labels */
+label {
+  display: inline-block; /* Allow margin */
+  margin-bottom: 0.5rem; /* Space below label */
+  font-weight: 500;
+  color: var(--text-light-color);
+  cursor: default; /* Default cursor for non-interactive labels */
+}
+/* Pointing cursor for labels associated with inputs */
+label[for] {
+    cursor: pointer;
+}
+
+/* General Input/Select Styles */
+input[type="text"],
+input[type="number"],
+input[type="search"], /* Add search type */
+select {
+  display: block; /* Take full width */
+  width: 100%;
+  padding: 0.5rem 0.75rem; /* Standard padding */
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  background-clip: padding-box; /* Prevent bg color extending under border */
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  /* Smooth transition for focus */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Focus State for Inputs/Selects */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+select:focus {
+    color: var(--text-color);
+    background-color: var(--white-color);
+    border-color: var(--primary-color); /* Highlight border */
+    outline: 0; /* Remove default outline */
+    box-shadow: 0 0 0 0.2rem var(--focus-ring-color); /* Custom focus ring */
+}
+
+/* Placeholder Styling */
+input::placeholder {
+    color: #6c757d;
+    opacity: 1; /* Override Firefox default opacity */
+}
+
+/* Disabled State */
+input:disabled,
+select:disabled {
+    background-color: var(--secondary-color); /* Gray out background */
+    opacity: 1; /* Ensure text is readable */
+    cursor: not-allowed;
+}
+
+
+/* Specific Input Types & Styles */
+
+/* Uppercase styled inputs (like secret word or guess input) */
+.uppercase-input {
+  text-transform: uppercase;
+  font-family: var(--font-monospace);
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number Inputs (General - remove spinners) */
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Score input area specific styles */
+.score-inputs {
+  display: flex; /* Changed from grid */
+  gap: var(--space-sm); /* Reduced gap */
+  margin: 0; /* Removed margin as it's now handled by the wrapper */
+  align-items: center;
+}
+.score-inputs .input-group {
+  display: flex;
+  flex-direction: row; /* Puts label and input side-by-side */
+  align-items: center;
+  gap: var(--space-xs); /* Puts label closer to its input */
+  margin-bottom: 0;
+}
+.score-inputs label {
+  margin-bottom: 0;
+  font-size: 1.2em; /* Make A/B labels prominent */
+  font-weight: bold;
+}
+.score-inputs input[type="number"] {
+  width: 55px; /* Slightly smaller input box */
+  padding: var(--space-xs);
+  font-size: 1em;
+}
+
+/* Player Guess Input Layout */
+.guess-input {
+    display: flex;
+    align-items: center; /* Align label, input, button vertically */
+    gap: var(--space-md); /* Space between elements */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+.guess-input label {
+  margin-bottom: 0; /* Remove bottom margin for inline label */
+  flex-shrink: 0; /* Prevent label from shrinking */
+}
+.guess-input input[type="text"] {
+  width: auto; /* Allow natural sizing based on maxlength */
+  min-width: 150px; /* Ensure minimum width */
+  flex-grow: 1; /* Allow input to grow */
+  display: inline-block; /* Needed for width: auto */
+}
+.guess-input button {
+    margin-bottom: 0; /* Remove bottom margin on button */
+    flex-shrink: 0; /* Prevent button from shrinking */
+}
+
+
+/* Hint Texts */
+.hint, .hint-text {
+  font-size: 0.9em;
+  color: var(--text-lighter-color); /* Lighter hint text */
+  display: block; /* Ensure hints are on new line */
+  margin-top: var(--space-xs); /* Small space above hint */
+  line-height: 1.4;
+}
+.hint-text { /* Specific hint paragraph */
+    margin-bottom: var(--space-md); /* Space below paragraph hint */
+}
+/* Add hint below specific inputs */
+input + .hint {
+    margin-left: 2px; /* Align slightly with input */
+}
+
+/* New rule for the submission wrapper */
+.score-submission-area {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Center the whole block */
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+/* --- Responsive Form Adjustments --- */
+
+@media (max-width: 768px) { /* Tablet */
+  .score-inputs {
+    grid-template-columns: 1fr 1fr; /* Keep scores side-by-side */
+    gap: var(--space-md);
+  }
+}
+
+@media (max-width: 480px) { /* Mobile */
+  .score-inputs {
+    grid-template-columns: 1fr; /* Stack score inputs */
+    gap: var(--space-md);
+  }
+  .score-inputs input[type="number"] {
+      width: 60px; /* Slightly smaller score input */
+      font-size: 1em;
+  }
+  .guess-input {
+      flex-direction: column; /* Stack label, input, button */
+      align-items: stretch; /* Stretch items full width */
+      gap: var(--space-sm); /* Reduce gap */
+  }
+  .guess-input label {
+      margin-bottom: var(--space-xs); /* Add space below label */
+  }
+   .guess-input input[type="text"] {
+       width: 100%; /* Full width */
+       min-width: 0; /* Reset min-width */
+   }
+   .guess-input button {
+       margin-top: var(--space-sm); /* Space above button */
+   }
+}

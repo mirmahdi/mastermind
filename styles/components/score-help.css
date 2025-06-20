@@ -1,0 +1,23 @@
+/* styles/components/score-help.css */
+/* Styling for the score help text box */
+
+.score-help {
+  background-color: #f8f9fa; /* Very light gray */
+  padding: var(--space-sm) var(--space-md); /* Padding inside box */
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--border-light-color); /* Subtle border */
+  /* Push help text towards the bottom in flex containers (like .guess-section) */
+  margin-top: auto;
+  margin-bottom: var(--space-lg); /* Space below help text */
+  font-family: var(--font-help); /* Specific font */
+  font-size: 0.85rem; /* Smaller help text */
+  line-height: 1.5;
+  color: var(--text-light-color);
+}
+.score-help p {
+    margin: 0.3rem 0; /* Tighter paragraph spacing */
+}
+.score-help strong {
+    color: var(--text-color); /* Make strong stand out */
+    font-weight: 600;
+}

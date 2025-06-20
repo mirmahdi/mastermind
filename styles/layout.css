@@ -1,0 +1,76 @@
+/**
+ * Project: Mastermind for Words
+ * File: styles/layout.css
+ * Description: Defines overall page structure with a compact layout.
+ */
+.container {
+  max-width: 850px;
+  margin: var(--space-md) auto;
+  background-color: var(--white-color);
+  padding: var(--space-md);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.game-title {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--space-md);
+}
+
+#game-setup, #game-panel {
+    margin-top: var(--space-md);
+}
+
+.game-container {
+  display: grid;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+  /* Desktop-first: Default to two columns */
+  grid-template-columns: 1fr 1.2fr;
+}
+
+.column {
+  background-color: var(--secondary-color);
+  padding: var(--space-sm);
+  border-radius: var(--border-radius-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+.column-header {
+  color: var(--primary-color);
+  font-size: 1.05em;
+  font-weight: 500;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--border-color);
+  text-align: center;
+}
+
+#game-controls {
+    margin-top: var(--space-xl);
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-md);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--border-color);
+}
+
+#footer {
+    margin-top: var(--space-xl);
+    text-align: center;
+    color: var(--text-lighter-color);
+    font-size: 0.9em;
+}
+
+/* --- Responsive Layout Adjustments --- */
+@media (max-width: 768px) {
+  .game-container {
+    /* On smaller screens, stack to a single column */
+    grid-template-columns: 1fr;
+  }
+}

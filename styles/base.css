@@ -1,0 +1,133 @@
+/* styles/base.css */
+
+:root {
+  /* Color Palette */
+  --primary-color: #4a90e2;    /* Blue */
+  --secondary-color: #f5f5f5;  /* Light Gray Background */
+  --text-color: #333;         /* Dark Gray Text */
+  --text-light-color: #555;   /* Medium Gray Text */
+  --text-lighter-color: #6c757d; /* Light Gray Text */
+  --border-color: #ddd;       /* Medium Gray Border */
+  --border-light-color: #eee; /* Lighter Border */
+  --success-color: #28a745;   /* Green */
+  --error-color: #dc3545;     /* Red */
+  --warning-bg: #fff3cd;      /* Light Yellow (for indicator) */
+  --warning-border: #ffeeba;
+  --warning-text: #856404;
+  --white-color: #ffffff;
+  --disabled-bg: #aabbcc;     /* Disabled Button Background */
+  --disabled-text: #f0f0f0;   /* Disabled Button Text */
+  --focus-ring-color: rgba(74, 144, 226, 0.3); /* Blue Focus Ring */
+
+  /* Fonts */
+  --font-sans-serif: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-monospace: Consolas, 'Courier New', Courier, monospace;
+  --font-help: Verdana, Geneva, sans-serif; /* Specific font for help text */
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Borders */
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 8px;
+}
+
+/* Basic Reset & Box Sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.6; /* Set base line height */
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
+
+body {
+  font-family: var(--font-sans-serif);
+  color: var(--text-color);
+  background-color: #f9f9f9; /* Slightly off-white page background */
+}
+
+/* Basic Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: transparent; /* Remove gray background on active links in IE 10 */
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Basic Form Element Consistency */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* Inherit font */
+  font-size: 100%; /* Inherit font size */
+  line-height: inherit; /* Inherit line height */
+}
+
+button,
+input {
+  overflow: visible; /* Show the overflow in Edge and IE */
+}
+
+button,
+select {
+  text-transform: none; /* Remove inheritance of text-transform in Firefox */
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* Correct inability to style clickable types in iOS and Safari */
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none; /* Remove inner border and padding in Firefox */
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; /* Restore focus styles unset by previous rule */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; /* Correct spinner height in Chrome */
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* Correct appearance in Chrome/Safari */
+  outline-offset: -2px; /* Correct outline offset in Chrome/Safari */
+}
+
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; /* Remove inner padding in Chrome/Safari on macOS */
+}

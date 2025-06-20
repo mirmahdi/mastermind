@@ -1,0 +1,43 @@
+/* styles/pages/setup.css */
+/* Styles specific only to the #game-setup panel and its direct children */
+
+#game-setup {
+    /* Add specific layout rules if needed, e.g., max-width */
+    /* max-width: 500px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: var(--space-sm) 0; /* Add some vertical padding */
+}
+
+/* Container for mode-specific options */
+#player-options {
+    margin-top: var(--space-md); /* Space above the options area */
+    /* Optional: Add border or background if needed */
+    /* border: 1px solid var(--border-light-color); */
+    /* padding: var(--space-md); */
+    /* border-radius: var(--border-radius-md); */
+}
+
+/* Center the start button within the setup area */
+#game-setup #start-btn {
+    display: block; /* Make it block to allow auto margins */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--space-lg); /* Add space above start button */
+    min-width: 150px; /* Ensure a reasonable minimum width */
+}
+
+/* Hint text specific to the setup phase */
+#player-options .hint,
+#player-options .hint-text {
+    /* Optional: Center hints if desired */
+    /* text-align: center; */
+}
+
+/* Ensure consistent spacing for input groups in setup */
+#player-options .input-group {
+    margin-bottom: var(--space-lg); /* Slightly larger spacing in setup */
+}
+#player-options .input-group:last-child {
+    margin-bottom: var(--space-md); /* Reduce margin on last group before button */
+}

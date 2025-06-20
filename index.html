@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastermind Word Guess</title>
+
+    <!-- Link the single main CSS file -->
+    <link rel="stylesheet" href="styles/main-styles.css">
+
+    <!-- Favicon Example (Optional) -->
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="game-title">Mastermind Word Guess</h1>
+
+        <!-- Game Setup Section -->
+        <div id="game-setup">
+            <div class="input-group">
+                <label for="mode-select">Select Game Mode:</label>
+                <select id="mode-select">
+                    <option value="">-- Select a mode --</option>
+                    <option value="modeA">Mode A: Guess Computer's Word</option>
+                    <option value="modeB">Mode B: Computer Guesses Your Word</option>
+                    <option value="modeC">Mode C: Player vs Player</option>
+                </select>
+            </div>
+            <div id="player-options">
+                <!-- Mode-specific options will be loaded here by JS -->
+            </div>
+            <!-- Start button moved here by JS in setupUIForMode -->
+        </div>
+
+        <!-- Gameplay Section (Initially Hidden) -->
+        <div id="game-panel" style="display: none;">
+            <!-- Input Section (Dynamically Populated) -->
+            <div id="input-section">
+                <!-- Gameplay UI (e.g., .game-container) loaded here by JS -->
+            </div>
+
+            <!-- Global Game Controls -->
+            <div id="game-controls">
+                <button id="concede-btn" class="secondary-btn" disabled>Concede</button>
+                <button id="new-game-btn" class="primary-btn">New Game</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p>Stats: Games Played: <span id="games-played">0</span> | Games Won: <span id="games-won">0</span></p>
+            <!-- Optional: Link or copyright -->
+            <!-- <p><a href="#">About</a> | Copyright © 2023</p> -->
+        </footer>
+    </div>
+
+    <!-- Main JS Entry Point (ensure type="module") -->
+    <script type="module" src="scripts/main.js"></script>
+
+</body>
+</html>

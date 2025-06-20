@@ -1,0 +1,25 @@
+/**
+ * Project: Mastermind for Words
+ * File: styles/pages/gameplay.css
+ * Description: Styles specific to gameplay view elements, with reduced whitespace.
+ */
+
+.computer-guess {
+  background-color: var(--white-color);
+  padding: var(--space-md) var(--space-xs);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--space-md);
+  text-align: center;
+}
+
+.guess-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.column > .guess-section,
+.column > .history-section {
+    margin-top: 0;
+}

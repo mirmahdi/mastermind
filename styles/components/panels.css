@@ -1,0 +1,33 @@
+/**
+ * Project: Mastermind for Words
+ * File: styles/components/panels.css
+ * Description: Styles for new info panels like session stats and live assessment.
+ */
+
+.session-stats-panel, .assessment-panel {
+    background-color: #f8f9fa;
+    border: 1px solid var(--border-light-color);
+    border-radius: var(--border-radius-sm);
+    padding: var(--space-xs) var(--space-md);
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-sm);
+    font-size: 0.75rem;
+    color: var(--text-light-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-lg);
+}
+
+.session-stats-panel span, .assessment-panel span {
+    white-space: nowrap;
+}
+
+.session-stats-panel strong, .assessment-panel strong {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-left: var(--space-xs);
+    min-width: 40px; /* Give placeholders some minimum width */
+    display: inline-block;
+}

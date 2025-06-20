@@ -1,0 +1,202 @@
+/* Modal dialog styling */
+.mastermind-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 90%;
+  width: 450px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  animation: modal-appear 0.3s ease-out;
+}
+
+@keyframes modal-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  color: var(--primary-color, #4a90e2);
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.modal-content .letter-grid {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.modal-content .letter-square {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--primary-color, #4a90e2);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  background-color: white;
+}
+
+/* Fix for letter squares in modal */
+.modal-content .letter-square.static .letter-square-inner {
+  transform: none;
+}
+
+.modal-content .letter-square-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.modal-content .letter-square-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content .score-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.modal-content .input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal-content .input-group label {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.modal-content .hint {
+  font-size: 0.85em;
+  color: #666;
+  font-weight: normal;
+}
+
+.modal-content input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Fix for validation dialog */
+.modal-content .uppercase-input {
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-content .score-help {
+  background-color: #f8f9fa;
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.modal-content .score-help p {
+  margin: 5px 0;
+}
+
+.modal-content .button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.modal-content .button-group button {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modal-content .primary-btn {
+  background-color: var(--primary-color, #4a90e2);
+  color: white;
+}
+
+.modal-content .primary-btn:hover {
+  background-color: #357abd;
+}
+
+.modal-content .secondary-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.modal-content .secondary-btn:hover {
+  background-color: #d0d0d0;
+}
+
+/* Fix scores button */
+.modal-content .fix-scores-btn {
+  margin-top: 15px;
+  background-color: var(--success-color, #4caf50);
+  width: 100%;
+}
+
+.modal-content .fix-scores-btn:hover {
+  background-color: #3d8b40;
+}

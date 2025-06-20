@@ -1,0 +1,23 @@
+/* styles/main-styles.css */
+/* Main CSS file importing all other stylesheets */
+/* Order is crucial for the CSS cascade! */
+
+/* 1. Base Styles */
+@import url('./base.css');
+
+/* 2. Layout Structure */
+@import url('./layout.css');
+
+/* 3. Reusable Components */
+@import url('./components/buttons.css');
+@import url('./components/forms.css');
+@import url('./components/letter-grid.css');
+@import url('./components/history-list.css');
+@import url('./components/indicator.css');
+@import url('./components/score-help.css');
+@import url('./components/modal.css'); /* CORRECT PATH to the modal component style */
+@import url('./components/panels.css'); /* ADD THIS LINE */
+
+/* 4. Page-Specific Overrides */
+@import url('./pages/setup.css');
+@import url('./pages/gameplay.css');

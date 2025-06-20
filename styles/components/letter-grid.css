@@ -1,0 +1,128 @@
+/**
+ * Project: Mastermind for Words
+ * File: styles/components/letter-grid.css
+ * Description: Styling for the letter display grid, with reduced whitespace.
+ */
+
+.letter-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: var(--space-xs) 0;
+  min-height: 50px;
+  flex-wrap: nowrap;
+}
+
+.letter-grid::-webkit-scrollbar { height: 6px; }
+.letter-grid::-webkit-scrollbar-track { background: var(--secondary-color); border-radius: 3px;}
+.letter-grid::-webkit-scrollbar-thumb { background-color: var(--border-color); border-radius: 3px; }
+
+.letter-square {
+  --square-size: 48px;
+  width: var(--square-size);
+  height: var(--square-size);
+  border: 2px solid #aed6f1;
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-monospace);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  position: relative;
+  perspective: 1000px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+/* Empty Placeholder Squares */
+.letter-square.empty {
+    border-style: dashed;
+    border-color: var(--border-color);
+    background-color: var(--secondary-color);
+    color: var(--border-color);
+}
+
+
+/* Animated Flip Effect */
+.letter-square-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+.letter-square.flip .letter-square-inner {
+    transform: rotateY(180deg);
+}
+
+.letter-square-front,
+.letter-square-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(var(--border-radius-sm) - 2px);
+}
+.letter-square-front {
+    background-color: #f0f0f0;
+    color: #ccc;
+    font-size: 1.8rem;
+}
+.letter-square-back {
+    background-color: var(--white-color);
+    transform: rotateY(180deg);
+    color: var(--text-color);
+}
+
+
+/* Static Squares (Edit Mode) */
+.letter-square.static {
+    background-color: var(--secondary-color);
+    border-color: #ced4da;
+    perspective: none;
+    color: var(--text-light-color);
+    /* Flex properties inherited from .letter-square will center content */
+    line-height: normal; /* Reset line-height */
+}
+/* --- CRITICAL FIX: Ensure pseudo-elements are empty --- */
+.letter-square.static::before,
+.letter-square.static::after {
+    content: none !important; /* Prevent pseudo-elements from adding content */
+    display: none !important; /* Hide them entirely */
+}
+
+/* Hide inner flip structure when static */
+.letter-square.static .letter-square-inner {
+    display: none;
+}
+
+
+/* --- Responsive Letter Grid --- */
+
+@media (max-width: 480px) { /* Mobile */
+  .letter-square {
+    --square-size: 38px; /* Smaller squares */
+    font-size: 1.2rem;
+    border-width: 1px;
+  }
+  .letter-square-front {
+      font-size: 1.5rem;
+  }
+  .letter-grid {
+    gap: var(--space-xs); /* Reduce gap between squares */
+    min-height: 40px;
+    padding-left: var(--space-xs); /* Ensure padding for scroll */
+    padding-right: var(--space-xs);
+  }
+}

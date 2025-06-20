@@ -1,0 +1,106 @@
+/* styles/components/buttons.css */
+/* Styling for all button types and button groups */
+
+.primary-btn,
+.secondary-btn {
+  display: inline-block; /* Allows margin/padding, aligns with text */
+  padding: var(--space-sm) var(--space-md); /* Vertical/Horizontal padding */
+  border: 1px solid transparent; /* Base border */
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  font-size: 1rem; /* Base font size */
+  font-weight: 500;
+  line-height: 1.5; /* Button text line height */
+  text-align: center;
+  vertical-align: middle; /* Align with adjacent inline elements */
+  /* Smooth transitions for hover/focus states */
+  transition: color 0.15s ease-in-out,
+              background-color 0.15s ease-in-out,
+              border-color 0.15s ease-in-out,
+              box-shadow 0.15s ease-in-out;
+  /* Prevent text selection on click */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  margin-bottom: var(--space-sm); /* Default spacing below buttons */
+}
+
+/* Focus State */
+.primary-btn:focus,
+.secondary-btn:focus {
+    outline: 0; /* Remove default browser outline */
+    box-shadow: 0 0 0 0.2rem var(--focus-ring-color); /* Custom focus ring */
+}
+
+/* Primary Button Styles */
+.primary-btn {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.primary-btn:hover:not(:disabled) {
+    background-color: #357abd; /* Darker blue on hover */
+    border-color: #357abd;
+}
+
+/* Secondary Button Styles */
+.secondary-btn {
+  color: var(--text-light-color);
+  background-color: #e9ecef; /* Light gray background */
+  border-color: #ced4da; /* Slightly darker gray border */
+}
+.secondary-btn:hover:not(:disabled) {
+    background-color: #d6dde3; /* Darker gray on hover */
+    border-color: #adb5bd;
+    color: var(--text-color);
+}
+
+/* Disabled State (Applies to both button types) */
+.primary-btn:disabled,
+.secondary-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+  box-shadow: none; /* Remove focus shadow when disabled */
+}
+/* Specific disabled styling if needed (can override opacity) */
+/*
+.primary-btn:disabled { background-color: var(--disabled-bg); border-color: var(--disabled-bg); color: var(--disabled-text); }
+.secondary-btn:disabled { background-color: #f1f3f5; border-color: #e9ecef; color: #adb5bd; }
+*/
+
+/* Button Grouping */
+.button-group {
+    display: flex;
+    gap: var(--space-sm); /* Space between buttons in a group */
+    margin-top: var(--space-md); /* Default space above a button group */
+}
+/* Make buttons share space equally within a group */
+.button-group > button {
+    flex: 1 1 auto; /* Allow buttons to grow and shrink */
+    margin-bottom: 0; /* Remove bottom margin when in group */
+}
+
+/* New modifier for a smaller button */
+.small-btn {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.875rem;
+    margin-bottom: 0; /* Remove margin when used inline */
+}
+
+.small-btn {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+}
+
+/* --- Responsive Button Adjustments --- */
+
+@media (max-width: 480px) {
+  .primary-btn,
+  .secondary-btn {
+    font-size: 0.875rem; /* Slightly smaller text */
+    padding: var(--space-xs) var(--space-sm); /* Smaller padding */
+  }
+}
